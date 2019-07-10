@@ -4,7 +4,33 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/jpeg" href="<?php get_template_directory() . '/public/images/favicon.jpg'; ?>">
+
+    <meta name="title" content="Liroo Pierre">
+    <meta name="description" content="I’m Pierre Monge. I am a full stack developer who also appreciates design." />
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="development,design,web,graphic,rotterdam,development,webdesign">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="Content-Language" content="en-us">
+    <meta name="language" content="English">
+
+    <meta name="author" content="Liroo Pierre">
+
+    <meta name="publisher" content="Liroo Pierre">
+    <meta name="identifier-url" content="https://liroopierre.com">
+    <meta name="reply-to" content="contact@liroopierre.com">
+    <meta name="rating" content="general">
+    <meta name="geography" content="Rotterdam">
+
+
+    <meta property="og:title" content="Liroo Pierre" />
+    <meta property="og:description"
+      content="FI’m Pierre Monge. I am a full stack developer who also appreciates design." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://liroopierre.com" />
+    <meta property="og:image" content="https://liroopierre.com/wp-content/themes/liroopierre/public/images/favicon.png" />
+
+    <link rel="shortcut icon" type="image/png" href="<?php get_template_directory() . '/public/images/favicon.png'; ?>">
     <?php wp_head(); ?>
   </head>
   <body>

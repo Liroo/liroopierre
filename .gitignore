@@ -7,8 +7,5 @@ node_modules/
 # logs
 *.log
 
-# Yarn
-yarn.lock
-
 # Public generated assets
 public/

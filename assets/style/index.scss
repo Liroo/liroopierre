@@ -12,7 +12,8 @@
   Core
 */
 @import './core/normalize',
-        './core/global';
+        './core/global',
+        './core/cursor';
 
 /*
   Those one are example
@@ -21,11 +22,13 @@
 /*
   Page
 */
-// @import './page/about',
-//         './page/home';
+@import './pages/home';
 
 /*
   Components
 */
-// @import './components/header',
-//         './components/footer';
+@import './components/loading',
+        './components/indent',
+        './components/marquee',
+        './components/console',
+        './components/header';

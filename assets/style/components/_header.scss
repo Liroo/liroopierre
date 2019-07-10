@@ -1,0 +1,21 @@
+.header {
+  user-select: none;
+
+  margin: 5vw 5.5vw;
+  @include mq($from: tablet) {
+    margin: 4vw 4.5vw;
+  }
+  @include mq($from: laptop) {
+    margin: 3vw 3.5vw;
+  }
+
+  &__date {
+    margin-top: 3vw;
+    @include mq($from: tablet) {
+      margin-top: 2vw;
+    }
+    @include mq($from: laptop) {
+      margin-top: 1vw;
+    }
+  }
+}

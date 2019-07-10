@@ -1,0 +1,95 @@
+@import '../../node_modules/xterm/css/xterm.css';
+
+$width: 628px;
+$height: 360px;
+
+.console {
+  position: fixed;
+  top: 0; left: 0;
+
+  touch-action: none;
+
+  background: $background;
+
+  border: 1px solid $color;
+
+  width: $width;
+  height: $height;
+
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+
+    @extend .cursor__grab;
+
+    font-size: 20px;
+
+    user-select: none;
+
+    border-bottom: 1px solid $color;
+    padding: 5px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__xterm {
+    padding: 10px;
+    padding-right: 0;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  visibility: hidden;
+  &-active {
+    visibility: visible;
+  }
+
+  &__resize {
+    position: absolute;
+
+    &-n {
+      @extend .cursor__ns-resize;
+      left: 0;
+      top: -5px;
+      height: 10px;
+      width: 100%;
+    }
+    &-s {
+      @extend .cursor__ns-resize;
+      left: 0;
+      bottom: -5px;
+      height: 10px;
+      width: 100%;
+    }
+    &-w {
+      @extend .cursor__ew-resize;
+      top: 0;
+      left: -5px;
+      height: 100%;
+      width: 10px;
+    }
+    &-e {
+      @extend .cursor__ew-resize;
+      top: 0;
+      right: -5px;
+      height: 100%;
+      width: 10px;
+    }
+  }
+}
+
+.xterm .xterm-viewport {
+  @extend .cursor__default;
+}
+
+.xterm.enable-mouse-events {
+  @extend .cursor__text;
+}
+
+.xterm.xterm-cursor-pointer {
+  @extend .cursor__pointer;
+}

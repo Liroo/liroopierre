@@ -1,0 +1,47 @@
+body {
+  @extend .cursor__default;
+}
+
+.cursor__default {
+  cursor: url('../images/cursor/pointer.cur'), default;
+}
+
+.cursor__text {
+  cursor: url('../images/cursor/ibeamstroke.cur') 0 9, text;
+}
+
+.cursor__pointer {
+  cursor: url('../images/cursor/pointinghand.cur') 3 0, pointer;
+}
+
+.cursor__grab {
+  cursor: url('../images/cursor/openhand.cur') 3 0, grab;
+}
+
+.cursor__grabbing {
+  cursor: url('../images/cursor/closehand.cur') 3 0, grabbing;
+}
+
+.cursor__w-resize {
+  cursor: url('../images/cursor/resizeleft.cur') 5 5, w-resize;
+}
+
+.cursor__ew-resize {
+  cursor: url('../images/cursor/resizeleftright.cur') 5 5, ew-resize;
+}
+
+.cursor__e-resize {
+  cursor: url('../images/cursor/resizeright.cur') 5 5, e-resize;
+}
+
+.cursor__n-resize {
+  cursor: url('../images/cursor/resizeup.cur') 5 5, n-resize;
+}
+
+.cursor__ns-resize {
+  cursor: url('../images/cursor/resizeupdown.cur') 5 5, ns-resize;
+}
+
+.cursor__s-resize {
+  cursor: url('../images/cursor/resizedown.cur') 5 5, s-resize;
+}

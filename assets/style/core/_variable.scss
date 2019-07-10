@@ -10,4 +10,9 @@ $mq-breakpoints: (
   wide:     1440px,
 );
 $mq-static-breakpoint: desktop;
-$mq-show-breakpoints: (mobile, tablet, laptop, desktop, wide);
+// $mq-show-breakpoints: (mobile, tablet, laptop, desktop, wide);
+$mq-show-breakpoints: ();
+
+$background: black;
+$color: #3f4fd7;
+$selectionColor: #3f4fd744;

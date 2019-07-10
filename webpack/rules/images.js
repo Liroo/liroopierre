@@ -5,7 +5,7 @@ const config = require('../app.config')
  * because they are handled by copy and image-minify webpack plugins.
  */
 module.exports = {
-  test: /\.(png|jpe?g|gif|svg)$/,
+  test: /\.(png|jpe?g|gif|svg|cur)$/,
   include: config.paths.images,
   use: [{
     loader: 'file-loader',

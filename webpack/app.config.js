@@ -19,7 +19,7 @@ module.exports = merge({
 
   outputs: {
     css: {
-      filename: env('FILENAME_CSS', 'css/[name].css')
+      filename: env('FILENAME_CSS', 'css/[name]-[hash].css')
     },
 
     font: {
@@ -31,7 +31,7 @@ module.exports = merge({
     },
 
     javascript: {
-      filename: env('FILENAME_JAVASCRIPT', 'js/[name].js')
+      filename: env('FILENAME_JAVASCRIPT', 'js/[name]-[hash].js')
     },
 
     external: {

@@ -1,21 +1,45 @@
-/*
-  Use mixin font face like this
-  https://gist.github.com/jonathantneal/d0460e5c2d5d7f9bc5e6
-*/
-// @include font-face(Lausanne, '../fonts/Lausanne-300', 300, normal, eot ttf woff woff2);
-// @include font-face(Lausanne, '../fonts/Lausanne-300Italic', 300, italic, eot ttf woff woff2);
+// Not using mixins here in favor of google font import css
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,600,600i&display=swap');
+
+html {
+  overflow: hidden;
+
+  &.js {
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+
+    // Here is DOMContentLoaded state
+    &.ready {
+      opacity: 1;
+    }
+  }
+}
 
 body {
-  // font-family: Lausanne, sans-serif !important;
+  font-family: 'IBM Plex Mono', monospace;
+
+  font-size: 4.5vw;
+  @include mq($from: tablet) {
+    font-size: 2.5vw;
+  }
+  @include mq($from: laptop) {
+    font-size: 1.4vw;
+  }
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  display: flex;
+  flex-direction: column;
 }
 
-html, body, #__next {
+html, body {
   width: 100%;
   height: 100%;
   overflow: hidden;
+
+  background: black;
+  color: $color;
 }
 
 * {
@@ -26,13 +50,27 @@ html, body, #__next {
     width: 0 !important;
     height: 0 !important;
   }
+  -webkit-tap-highlight-color: transparent;
+
+  &::-moz-selection {
+    color: $color;
+    background: $selectionColor;
+  }
+  &::selection {
+    color: $color;
+    background: $selectionColor;
+  }
 }
 
 a {
+  @extend .cursor__pointer;
+
   color: inherit;
   text-decoration: none;
-  &:hover {
-    font-style: italic;
+  @include mq($and: '(hover: hover)') {
+    &:hover {
+      font-style: italic;
+    }
   }
 }
 
@@ -47,4 +85,8 @@ img {
   display: block;
   width: auto;
   height: auto;
+}
+
+svg {
+  display: block;
 }

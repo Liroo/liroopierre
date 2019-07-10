@@ -1,6 +1,6 @@
-# Liroo - A modern wordpress starter theme 🌼
+# Liroo - My personal website using [wp-liroo](https://github.com/Liroo/wp-liroo) 🌼
 
-> This theme is mainly used by Studio Push, I have no intention to produce a stable open-sourced version of this theme for now.
+> This theme make use of configuration for some plugins like acf or cpt.
 
 ### Instalation
 
@@ -36,6 +36,8 @@
 > And also because I want to maintain this theme updated so no surcharge :)
 
 ### Contributing
+
+> This repo is my own website where only source are open. If you want to contribute, please check the base repo [wp-liroo](https://github.com/Liroo/wp-liroo) where you can do better things.
 
 Great that you are considering supporting the project. You have a lot of ways to help us grow. We appreciate all contributions, even the smallest.
 

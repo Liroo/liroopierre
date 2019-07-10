@@ -1,0 +1,19 @@
+.marquee {
+  position: fixed;
+  bottom: 0;
+  left: 0; right: 0;
+
+  background: black;
+
+  padding: 5vw 0vw;
+  @include mq($from: tablet) {
+    padding: 2vw 0vw;
+  }
+  @include mq($from: laptop) {
+    padding: 1vw 0vw;
+  }
+
+  &__item {
+    padding-left: 10px;
+  }
+}

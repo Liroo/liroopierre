@@ -1,0 +1,11 @@
+@for $i from 1 through 6 {
+  .indent-#{$i} {
+    padding-left: 9vw * $i;
+    @include mq($from: tablet) {
+      padding-left: 7vw * $i;
+    }
+    @include mq($from: laptop) {
+      padding-left: 4vw * $i;
+    }
+  }
+}

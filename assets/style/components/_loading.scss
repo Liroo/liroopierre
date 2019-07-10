@@ -1,0 +1,42 @@
+.loading {
+
+  @extend .cursor__pointer;
+
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+
+  z-index: 999;
+  background: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transform-origin: center;
+
+  &__content {
+
+    > svg {
+      width: 80vw;
+      @include mq($from: tablet) {
+        width: 60vw;
+      }
+      @include mq($from: laptop) {
+        width: 35vw;
+      }
+      height: auto;
+    }
+
+    > p {
+      margin-top: 2vw;
+      @include mq($from: tablet) {
+        margin-top: 1.5vw;
+      }
+      @include mq($from: laptop) {
+        margin-top: 1vw;
+      }
+    }
+  }
+}

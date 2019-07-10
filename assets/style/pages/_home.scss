@@ -1,0 +1,80 @@
+.home {
+  flex: 1;
+  overflow-y: scroll;
+
+  margin: 0 5.5vw;
+  @include mq($from: tablet) {
+    margin: 0 4.5vw;
+  }
+  @include mq($from: laptop) {
+    margin: 0 3.5vw;
+  }
+
+  &__nav {
+    user-select: none;
+
+    margin-bottom: 16vw;
+    @include mq($from: tablet) {
+      margin-bottom: 8vw;
+    }
+    @include mq($from: laptop) {
+      margin-bottom: 4vw;
+    }
+
+    &__item {
+      @include mq($until: tablet) {
+        padding-left: 5vw !important;
+        &:nth-of-type(3) {
+          display: none;
+        }
+      }
+      margin-top: 5vw;
+      @include mq($from: tablet) {
+        margin-top: 2.5vw;
+      }
+      @include mq($from: laptop) {
+        margin-top: 1.5vw;
+      }
+
+      &__content {
+        overflow: hidden;
+        transition: height 0.5s;
+        height: 0;
+
+        > div {
+          padding-top: 4vw;
+          @include mq($from: tablet) {
+            padding-top: 2vw;
+          }
+          @include mq($from: laptop) {
+            padding-top: 1vw;
+          }
+
+          display: flex;
+          flex-direction: column;
+
+          line-height: 1.5;
+
+          ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            > li {
+              @include mq($until: laptop) {
+                padding-left: 5vw !important;
+              }
+            }
+          }
+          > p {
+            &:first-child {
+              padding-top: 0;
+            }
+            @include mq($until: tablet) {
+              padding-left: 0vw !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

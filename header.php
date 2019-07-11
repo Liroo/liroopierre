@@ -25,7 +25,7 @@
 
     <meta property="og:title" content="Liroo Pierre" />
     <meta property="og:description"
-      content="FI’m Pierre Monge. I am a full stack developer who also appreciates design." />
+      content="I’m Pierre Monge. I am a full stack developer who also appreciates design." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://liroopierre.com" />
     <meta property="og:image" content="https://liroopierre.com/wp-content/themes/liroopierre/public/images/favicon.png" />

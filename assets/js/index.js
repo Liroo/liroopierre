@@ -7,6 +7,10 @@ import Home from './home';
 
 import Console from './console';
 
+import CSSPlugin from 'gsap/CSSPlugin';
+
+const C = CSSPlugin;
+
 /*
  * App Class
  */

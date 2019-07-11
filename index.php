@@ -37,6 +37,7 @@
           </p>
           <br/>
           <ul>
+            <li class="indent-1"><a href="https://studio-push.com" target="_blank">Studio Push - Multidisciplinary Studio</a></li>
             <li class="indent-1"><a href="http://jennsingvarsson.studio-push.com" target="_blank">Jens Ingvarsson - Photographer</a></li>
             <li class="indent-2"><a href="https://emilievizcano.com" target="_blank">Emilie Vizcano - Graphic designer</a></li>
             <li class="indent-3"><a href="https://oneiric.space" target="_blank"> Oneiric Space - Online magazine about dreams </a></li>

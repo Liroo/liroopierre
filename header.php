@@ -40,6 +40,7 @@
       gtag('config', 'UA-129276170-4');
     </script>
 
+    <title>Liroo Pierre</title>
 
     <link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri() . '/public/images/favicon.png'; ?>">
     <?php wp_head(); ?>

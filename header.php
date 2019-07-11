@@ -30,6 +30,17 @@
     <meta property="og:url" content="https://liroopierre.com" />
     <meta property="og:image" content="https://liroopierre.com/wp-content/themes/liroopierre/public/images/favicon.png" />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129276170-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-129276170-4');
+    </script>
+
+
     <link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri() . '/public/images/favicon.png'; ?>">
     <?php wp_head(); ?>
   </head>

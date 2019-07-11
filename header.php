@@ -30,7 +30,7 @@
     <meta property="og:url" content="https://liroopierre.com" />
     <meta property="og:image" content="https://liroopierre.com/wp-content/themes/liroopierre/public/images/favicon.png" />
 
-    <link rel="shortcut icon" type="image/png" href="<?php get_template_directory() . '/public/images/favicon.png'; ?>">
+    <link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri() . '/public/images/favicon.png'; ?>">
     <?php wp_head(); ?>
   </head>
   <body>

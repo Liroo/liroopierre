@@ -7,7 +7,7 @@
       <div class="indent-1 home__nav__item__content">
         <div>
           <p>
-            I’m Pierre Monge, I am originally from Bordeaux (France) but I live now in Rotterdam.
+            I’m Pierre Monge, I am originally from Bordeaux (France) and after a  year in Rotterdam I live now in Paris.
           </p>
           <p class="indent-1">
             I am a full stack developer who also appreciates design. 
@@ -40,12 +40,14 @@
             <li class="indent-1"><a href="https://studio-push.com" target="_blank">Studio Push - Multidisciplinary Studio</a></li>
             <li class="indent-1"><a href="http://jensingvarsson.studio-push.com" target="_blank">Jens Ingvarsson - Photographer</a></li>
             <li class="indent-2"><a href="https://emilievizcano.com" target="_blank">Emilie Vizcano - Graphic designer</a></li>
-            <li class="indent-3"><a href="https://oneiric.space" target="_blank"> Oneiric Space - Online magazine about dreams </a></li>
-            <li class="indent-2"><a href="https://fatbeep.com" target="_blank"> Fatbeep - Music production </a></li>
-            <li class="indent-2"><a href="https://www.socialstatuspgh.com/pages/social-status-x-air-jordan-6" target="_blank"> Social Status x Air Jordan 6 - Shoes countdown page </a></li>
-            <li class="indent-1"><a href="https://thecorewomencare.com/" target="_blank"> The core women care - Launching page for women brand </a></li>
-            <li class="indent-2"><a href="https://upshoewear.nl" target="_blank"> Up Shoe Wear - E-shop </a></li>
-            <li class="indent-1"><a href="http://stickystuff.nl" target="_blank"> Stickystuff - Photography agency </a></li>
+            <li class="indent-3"><a href="https://oneiric.space" target="_blank">Oneiric Space - Online magazine about dreams </a></li>
+            <li class="indent-3"><a href="https://fatbeep.com" target="_blank">Fatbeep - Music production </a></li>
+            <li class="indent-2"><a href="https://www.socialstatuspgh.com/pages/social-status-x-air-jordan-6" target="_blank">Social Status x Air Jordan 6 - Shoes countdown page </a></li>
+            <li class="indent-3"><a href="https://thecorewomencare.com/" target="_blank">The core women care - Launching page for women brand </a></li>
+            <li class="indent-2"><a href="https://upshoewear.nl" target="_blank">Up Shoe Wear - E-shop </a></li>
+            <li class="indent-1"><a href="http://stickystuff.nl" target="_blank">Stickystuff - Photography agency </a></li>
+            <li class="indent-2"><a href="https://clubcouleurs.fr/" target="_blank">Club Couleurs - E-shop for risography</a></li>
+            <li class="indent-1"><a href="https://dada-service.com" target="_blank">Dada - E-shop from Korea </a></li>
           </ul>
           <br/>
           <p>
@@ -53,10 +55,12 @@
           </p>
           <br/>
           <ul>
-            <li class="indent-1"><a href="https://github.com/Liroo/Zappy" target="_blank">WP Liroo - Base dev theme for wordpress</a></li>
-            <li class="indent-2"><a href="https://www.azendoo.com" target="_blank">Azendoo - Mobile app</a></li>
-            <li class="indent-1"><a href="https://www.sudouest.fr/2016/06/07/euro-2016-faites-vos-pronostics-avec-goal-buster-site-et-application-crees-a-bordeaux-2391502-2780.php" target="_blank"> Goal Buster - Prognostic game for Euro 2016</a></li>
-            <li class="indent-1"><a href="http://www.irsa.fr/component/k2/item/126-documentaliste" target="_blank"> Dialogram - App for LSF (accessibility in France)</a></li>
+            <li class="indent-1"><a href="https://ulysse.travel" target="_blank">Ulysse - Metasearch engine for flights 2.0</a></li>
+            <li class="indent-2"><a href="https://lemonde.fr" target="_blank">Le Monde - French newspaper online and print</a></li>
+            <li class="indent-2"><a href="https://github.com/Liroo/Zappy" target="_blank">WP Liroo - Base dev theme for wordpress</a></li>
+            <li class="indent-3"><a href="https://www.azendoo.com" target="_blank">Azendoo - Mobile app</a></li>
+            <li class="indent-2"><a href="https://www.sudouest.fr/2016/06/07/euro-2016-faites-vos-pronostics-avec-goal-buster-site-et-application-crees-a-bordeaux-2391502-2780.php" target="_blank">Goal Buster - Prognostic game for Euro 2016</a></li>
+            <li class="indent-1"><a href="http://www.irsa.fr/component/k2/item/126-documentaliste" target="_blank">Dialogram - App for LSF (accessibility in France)</a></li>
           </ul>
         </div>
       </div>
